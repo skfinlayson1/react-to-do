@@ -10,8 +10,8 @@ class ToDoList extends React.Component {
     render() {
         return (
             <li className='thingToDo'>
-                <input className='checkBox' type='checkbox' checked={this.props.done} />
-                <span>{this.props.desc}</span>
+                <input className='checkBox' type='checkbox' defaultChecked={this.props.done} onChange={this.props.checkedBox} />
+                <span>{this.props.desc}<span className='remove' onClick={() => this.props.remove(this.props.desc)}>X</span></span>
             </li>
         )
     }

@@ -27,3 +27,20 @@ input[type='checkbox'] {
     border-radius:5px;
     border:2px solid #555;
 }
+
+.formEntry {
+    display: block;
+    margin: auto;
+}
+
+.button, input {
+    font-size:25px;
+}
+
+.remove {
+    font-size: 15px;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    margin-left: 50px;
+}
